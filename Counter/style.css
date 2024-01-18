@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid #102b42;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #102b42;
+}
+
+.container h1 {
+  font-size: 48px;
+  color: #102b42;
+}
+
+.container p {
+  font-size: 64px;
+  color: #008000;
+}
+
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 2px solid #102b42;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 32px;
+  color: #102b42;
+  font-weight: bolder;
+}
